@@ -1,5 +1,5 @@
 command = ""
-started = False
+started = True
 # stopped = False
 
 while True:
@@ -18,7 +18,7 @@ quit - to exit
             started = True
             print("Car started...Ready to go!")
     elif command == "stop":
-        # check is the car is already stopped
+        # check if the car is already stopped
         # if stopped:
         if not started:
             print("Car is already stopped!")
